@@ -10,4 +10,4 @@ This  will get you up and running with a Raspberry Pi, connected to your wifi ne
 
 
 # Prepare SD card with Raspbian or Raspbian lite
-. Download the latest Raspbian LITE image from the official[Raspberry Pi website (https://www.raspberrypi.org/downloads/raspbian/)
+. Download the latest Raspbian LITE image from the official [Raspberry Pi website](https://www.raspberrypi.org/downloads/raspbian/)
