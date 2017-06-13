@@ -11,7 +11,8 @@ This  will get you up and running with a Raspberry Pi, connected to your wifi ne
 
 # Prepare SD card with Raspbian or Raspbian lite
 * Download the latest Raspbian LITE image from the official [Raspberry Pi website](https://www.raspberrypi.org/downloads/raspbian/)
-* Use [Etcher] (https://etcher.io/) to flash the Raspbian .img-file to the SD card. 
+* Use [Etcher](https://etcher.io/) to flash the Raspbian .img-file to the SD card. 
 * When done leave the SD card in your PC
-
-#Configure ssh and wifi
+* A boot drive should appear. Open a terminal/comand promt and cd to the boot drive using the following command
+''cd /Volumes/boot''
+# Configure ssh and wifi
