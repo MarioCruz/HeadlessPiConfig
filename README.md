@@ -46,6 +46,9 @@ If it work you should have a response like
 
 ```PING raspberrypi.local (192.168.1.68): 56 data bytes```
 
+You can now SSH into your Pi with 
+```ssh pi@raspberrypi.local``` or ```ssh pi@192.168.1.68``` (IP from the ping)
+
 
 
 
