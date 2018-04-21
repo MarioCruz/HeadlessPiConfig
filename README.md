@@ -28,9 +28,11 @@ This will enable ssh when you Pi boots for the first time.
 ```nano wpa_supplicant.conf```
 * Paste the following content in the wpa_supplicant.conf file, adjust it with your wifi details and save it with *ctrl + x* .
 ```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 network={
-    ssid="YOUR_SSID"
-    psk="YOUR_WIFI_PASSWORD"
+    ssid="YOUR_NETWORK_NAME"
+    psk="YOUR_PASSWORD"
+    key_mgmt=WPA-PSK
 }
 ```
 
