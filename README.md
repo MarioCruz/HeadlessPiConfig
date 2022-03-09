@@ -52,6 +52,21 @@ You can now SSH into your Pi with
 ```ssh pi@raspberrypi.local``` or ```ssh pi@192.168.1.68``` (IP from the ping)
 
 
+# Headless Video player 
+
+sudo nano playwav.sh
+
+#!/bin/bash
 
 
+echo "Hello World!"
+for ((i = 0 ; i <= 10000 ; i++)); do
+  echo "Counter: $i"
+  omxplayer --loop --no-osd -b wav.mp4
+done
+
+
+#omxplayer --loop -b wav.mp4
+
+sudo chmod +x playwav.sh
 
